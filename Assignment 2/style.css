@@ -1,0 +1,50 @@
+* {
+  padding: 0px;
+  
+  
+}
+#phone {
+  
+  margin-left: 530px;
+  height: 500px;
+  width: 500px;
+  background-color: #f3857d;
+  overflow: scroll;
+  
+  border-radius: 20px;
+
+}
+
+#title{
+  width: 500px;
+  height: 100px;
+  background-color: #0fa0cc;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 3px 3px 1px #ffea00;
+  margin-left: 535px;
+  border-radius: 20px;
+}
+
+dt {
+  background:rgb(32, 5, 182);
+  border-bottom: 1px solid #989EA4;
+  border-top: 1px solid #717D85;
+  color: #FFF;
+  font: bold 18px/21px Helvetica, Arial, sans-serif;
+  margin: 5px;
+  padding: 2px 0 0 12px;
+  
+  position: sticky;
+  top: -1px;
+  
+}
+
+dd::before{
+  content: "\1F4DE";
+  
+}
+dd {
+  border-bottom: 2px solid rgb(102, 95, 95);
+}
